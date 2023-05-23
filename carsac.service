@@ -1,0 +1,18 @@
+# Softlinked, don't delete from /etc/carsac
+# ln -s /etc/carsac/carsac.service /etc/systemd/system/
+
+[Unit]
+Description=Resumes Carsac after failure
+After=multi-user.target
+
+[Service]
+User=root
+WorkingDirectory=/etc/carsac/
+Restart=on-failure
+RestartSec=5s
+ExecStart=/bin/bash -c "/usr/bin/python3 ./serialRF.py3 -k ./config.ini"
+StandardError=append:/etc/carsac/RFIDlog.txt
+SyslogIdentifier=carsac
+
+[Install]
+WantedBy=multi-user.target

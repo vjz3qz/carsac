@@ -1,0 +1,41 @@
+# Copyright 2021-2022 John Kothmann, Tom Baker, and Olivia Hale
+
+# This file is part of the CARSAC Updater.
+# The CARSAC Updater is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+# The CARSAC Updater is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+# You should have received a copy of the GNU General Public License along with The CARSAC Updater. If not, see <https://www.gnu.org/licenses/>. 
+
+# User syntax should be as below
+# Example Schedule Syntax:
+# - Monday:
+#   times:
+#      start: '07:00'
+#      end: '19:00'z
+# - '2021-10-19': #dates must be ISO format: 'YYYY-MM-DD'
+#   times:
+#      start: '00:01'
+#      end: '23:59'
+
+# Door options:
+# admin_office: office of the business manager near in TV room hallway
+# all: all of these permissions
+# crat_closet: closet at the N end of the N bay with supplemental training supplies
+# external: default permission; doors into the building (main, N classroom, S bay, doors into main building from both bays, and stockroom)
+# pharmacy: door in the back of the stockroom to the room with more boxes and controlled medical supplies
+# radio_room: closet at the N end of the N bay with spare radio equipment
+# server_room: door on N end of S rec room with telecom equipment
+# tech_office: corner office in S rec room with technology workspace
+# uniforms: uniforms closet in the attic (above the admin office)
+
+---
+username: John Doe
+door_ids:
+  - external
+card_id: zzzzzz
+schedule: all
+---
+username: John Snow
+door_ids:
+  - external
+card_id: xxxxxx
+schedule: all
