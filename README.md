@@ -1,5 +1,5 @@
 # CARSAC
-Access control solution for the Charlottesville-Albemarle Rescue Squad
+Access control solution for the Charlottesville-Albemarle Rescue Squad. The CARS Access Control Software is an RFID badge scanning system for streamlined and secure access control. It offers real-time monitoring and customizable access management for enhanced security.
 
 ## License
 Copyright 2021, 2022 by John Kothmann, Tom Baker, and Varun Pasupuleti
