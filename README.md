@@ -14,7 +14,7 @@ You should have received a copy of the GNU General Public License along with CAR
 
 ## Hardware and setup
 
-Install a strike in the door. Use a fail-secure strike for secure facilities like a telecom closet and fail-open for doors essential for egress and rescue workers like main enterances. In the event of a power outage and depletion of the backup battery, does the door need to be locked or unlocked? Ideally, install the diode to prevent high-voltage spikes when power is disconnected but the strike coil magnetic field transiently remains.
+Install a strike in the door. Use a fail-secure strike for secure facilities like a telecom closet and fail-open for doors essential for egress and rescue workers like main entrances. In the event of a power outage and depletion of the backup battery, does the door need to be locked or unlocked? Ideally, install the diode to prevent high-voltage spikes when power is disconnected but the strike coil magnetic field transiently remains.
 
 Print a case and attach Pi 0W, Adafruit Trinket/Feather, and wiring board to the case. Solder headers to the Pi 0W and wiring board if desired for easier troubleshooting. Otherwise, solder wires between elements as indicated on the wiring board.
 
